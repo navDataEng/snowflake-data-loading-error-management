@@ -1,0 +1,15 @@
+"ERROR","FILE","LINE","CHARACTER","BYTE_OFFSET","CATEGORY","CODE","SQL_STATE","COLUMN_NAME","ROW_NUMBER","ROW_START_LINE","REJECTED_RECORD"
+"Numeric value '100' is out of range","emp01252025.csv",2,41,93,"conversion",100039,"22003","""EMP_DAILY""[""DEPTNO"":9]",1,2,"7839,KING,M,PRESIDENT,,11/17/1981,5000,,100
+"
+"Numeric value '200' is out of range","emp01252025.csv",7,42,320,"conversion",100039,"22003","""EMP_DAILY""[""DEPTNO"":9]",6,7,"7902,FORD,M,ANALYST,7566,12/3/1981,3000,,200
+"
+"Numeric value '300' is out of range","emp01252025.csv",14,40,651,"conversion",100039,"22003","""EMP_DAILY""[""DEPTNO"":9]",13,14,"7900,JIMMY,F,CLERK,7698,12/3/1981,950,,300
+"
+"Date '11-17-1981' is not recognized","emp01242025.csv",2,24,76,"conversion",100040,"22007","""EMP_DAILY""[""HIREDATE"":6]",1,2,"7839,KING,M,PRESIDENT,,11-17-1981,5000,,10
+"
+"Date '2-20-1981' is not recognized","emp01242025.csv",9,28,394,"conversion",100040,"22007","""EMP_DAILY""[""HIREDATE"":6]",8,9,"7499,ALLEN,M,SALESMAN,7698,2-20-1981,1600,300,30
+"
+"Date '9-28-1981' is not recognized","emp01242025.csv",11,29,494,"conversion",100040,"22007","""EMP_DAILY""[""HIREDATE"":6]",10,11,"7654,MARTIN,F,SALESMAN,7698,9-28-1981,1250,1400,30
+"
+"Date '1-23-1982' is not recognized","emp01242025.csv",15,25,677,"conversion",100040,"22007","""EMP_DAILY""[""HIREDATE"":6]",14,15,"7934,MILLER,,CLERK,7782,1-23-1982,1300,,10
+"
